@@ -16,9 +16,9 @@ java -jar "CS_IA.jar"
 To distribute this project, zip up the dist folder (including the lib folder)
 and distribute the ZIP file.
 
-Note: To run the application, a database named ‘csia’ needs to be present in MySQL. In this
+Note: To run the application, all libraries should be added and a database named ‘csia’ needs to be present in MySQL. In this
 database, there needs to be a table called ‘login’ which should be structured as mentioned
-above. (username- root, password- root@123). The command for creating the ‘login’ table iscreate table login (first_name varchar(100), last_name varchar(100), username varchar(100), password varchar(100),
+above. (username- root, password- root@123). The command for creating the ‘login’ table is: create table login (first_name varchar(100), last_name varchar(100), username varchar(100), password varchar(100),
 contact varchar(100));
 
 Notes:
